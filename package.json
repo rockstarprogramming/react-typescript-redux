@@ -1,0 +1,40 @@
+{
+  "name": "react-typescript-project",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "author": "Taylor",
+  "license": "MIT",
+  "jest": {
+  "transform": {
+    ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ]
+},
+  "scripts": {
+    "start": "webpack-dev-server --content-base ./"
+ },
+  "dependencies": {
+    "@types/react": "^15.6.6",
+    "@types/react-dom": "^16.0.2",
+    "@types/react-redux": "^5.0.12",
+    "@types/redux": "^3.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.3.0",
+    "jest": "^21.2.1",
+    "react-addons-test-utils": "^15.6.2",
+    "ts-jest": "^21.1.4",
+    "typescript": "^2.6.1"
+  }
+}
